@@ -6,7 +6,7 @@ export const label = {
     homeScreenTitle:"Rental House",
     Tenant:"Tenant",
     House:"House",
-    Report:"Report",
+    Report:"Report", 
     Profile:"Profile",
     CreateTenant:"CreateTenant",
     tenantName:"Tenant Name",
