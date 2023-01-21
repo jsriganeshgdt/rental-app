@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Downloads/studying/Home_Rent/rentalapp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "/Users/apple/Downloads/Projects/rental-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/1376c6bbcba588dc479ac0ee64f072af/transformed/browser-1.4.0/res/values-en-rXC/values-en-rXC.xml",

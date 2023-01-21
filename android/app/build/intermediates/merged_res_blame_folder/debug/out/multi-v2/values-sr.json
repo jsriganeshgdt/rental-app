@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Downloads/studying/Home_Rent/rentalapp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml",
+            "outputFile": "/Users/apple/Downloads/Projects/rental-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/b6d77d9eeef718087b6e5a6e55776f8a/transformed/jetified-play-services-basement-18.0.0/res/values-sr/values.xml",

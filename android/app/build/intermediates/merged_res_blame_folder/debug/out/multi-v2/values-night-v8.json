@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Downloads/studying/Home_Rent/rentalapp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/apple/Downloads/Projects/rental-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3afacf14d7d1ad054f8ae3b905e5c23f/transformed/material-1.1.0/res/values-night-v8/values-night-v8.xml",
