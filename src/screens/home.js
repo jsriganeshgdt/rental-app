@@ -10,48 +10,48 @@ const Home = () => {
 
 
   const houseList =[
-    {houseNo:"1/12",
-    landmark:"Near by post office",
-    Available:true,
-    },
-    {houseNo:"12 a",
-    landmark:"Near by School",
-    Available:false,    
-    tenantName:"Sri"
-    },
-    {houseNo:"1/12",
-    landmark:"Near by post office",
-    Available:true,
-    },
-    {houseNo:"1/12",
-    landmark:"Near by post office",
-    Available:true,
-    },
-    {houseNo:"12 a",
-    landmark:"Near by School",
-    Available:false,
-    tenantName:"Ganesh"
-    },
-    {houseNo:"12 a",
-    landmark:"Near by School",
-    Available:false,
-    tenantName:"Vinoth"
-    },
-    {houseNo:"1/12",
-    landmark:"Near by post office",
-    Available:true
-    },
-    {houseNo:"12 a",
-    landmark:"Near by School",
-    Available:false,
-    tenantName:"shareef"
+    // {houseNo:"1/12",
+    // landmark:"Near by post office",
+    // Available:true,
+    // },
+    // {houseNo:"12 a",
+    // landmark:"Near by School",
+    // Available:false,    
+    // tenantName:"Sri"
+    // },
+    // {houseNo:"1/12",
+    // landmark:"Near by post office",
+    // Available:true,
+    // },
+    // {houseNo:"1/12",
+    // landmark:"Near by post office",
+    // Available:true,
+    // },
+    // {houseNo:"12 a",
+    // landmark:"Near by School",
+    // Available:false,
+    // tenantName:"Ganesh"
+    // },
+    // {houseNo:"12 a",
+    // landmark:"Near by School",
+    // Available:false,
+    // tenantName:"Vinoth"
+    // },
+    // {houseNo:"1/12",
+    // landmark:"Near by post office",
+    // Available:true
+    // },
+    // {houseNo:"12 a",
+    // landmark:"Near by School",
+    // Available:false,
+    // tenantName:"shareef"
 
-    },
-    {houseNo:"12 a",
-    landmark:"Near by School",
-    Available:false,
-    tenantName:"sreeja"
-    }
+    // },
+    // {houseNo:"12 a",
+    // landmark:"Near by School",
+    // Available:false,
+    // tenantName:"sreeja"
+    // }
 
   ]
 

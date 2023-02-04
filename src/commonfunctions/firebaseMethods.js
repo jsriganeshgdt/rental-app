@@ -1,4 +1,5 @@
 import database from '@react-native-firebase/database';
+import firebase from '@react-native-firebase/app'
 
 
 
@@ -6,8 +7,13 @@ export const doLogin= async (email,password)=>{
 
     var data = {}
 
+    const databaseURL = firebase.app().options.databaseURL;
+console.log(databaseURL);
+
+
     await database().ref('usersList').once("value",snapshot=>{
         let userList = snapshot.val()
+        console.log("----> ",userList)
         const result = userList.find((user)=> user.email_id === email)
         if(result === undefined){
             data['status']=false;
@@ -35,6 +41,7 @@ export const createHouse= async (houseDetails,userId)=>{
               houseDetails
             )
             .then(() => {
+              console.log("done ==========>")
               data['status']=true;
             })
             .catch((e)=>{
@@ -46,14 +53,19 @@ export const createHouse= async (houseDetails,userId)=>{
 
 export const updateHouse= async (houseDetails,userId)=>{
   var data = {}
+  console.log("done ==update========>",houseDetails.status)
+
   await database().ref('/houseList/'+userId+"/"+houseDetails.key)
             .update(
               houseDetails
             )
             .then(() => {
+              console.log("done ==update========>")
               data['status']=true;
             })
             .catch((e)=>{
+              console.log("done ==update e========>",e)
+
               data['status']=false;
               data['message']='somethingwent wrong please tryagain';
             })

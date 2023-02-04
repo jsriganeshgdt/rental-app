@@ -101,6 +101,7 @@ export const CreateHouse = (props) => {
     }
 
     const onValid = async (details) => {
+        try {
         details["status"] = details.status.id
         details["id"] = new Date().getTime()
         details["houseImage"] = houseImage
@@ -113,6 +114,9 @@ export const CreateHouse = (props) => {
         } else {
             alert(result.message)
         }
+    } catch (error) {
+        changeSpinnerFlag(false)
+    }
     }
 
 

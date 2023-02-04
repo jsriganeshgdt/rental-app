@@ -761,7 +761,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
-    <string name="default_web_client_id" translatable="false">846787229893-3671kgljapr46apcu2ll9ml5obfvbhjq.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">829337695328-ugm8eh29qbjcbfjnup9papkm0ppsutqa.apps.googleusercontent.com</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
@@ -769,12 +769,11 @@
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="firebase_database_url" translatable="false">https://rentalapp-5571a-default-rtdb.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">846787229893</string>
-    <string name="google_api_key" translatable="false">AIzaSyBl5je3qmQ7C-8_Po4-JPexVmSKNHwdXz8</string>
-    <string name="google_app_id" translatable="false">1:846787229893:android:8b937c9ec86701e92c58ac</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBl5je3qmQ7C-8_Po4-JPexVmSKNHwdXz8</string>
-    <string name="google_storage_bucket" translatable="false">rentalapp-5571a.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">829337695328</string>
+    <string name="google_api_key" translatable="false">AIzaSyB0V9GxD17OF3VAFXIE3N_wZXpqocSHzjs</string>
+    <string name="google_app_id" translatable="false">1:829337695328:android:e76b709f8144cb12c7bf05</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB0V9GxD17OF3VAFXIE3N_wZXpqocSHzjs</string>
+    <string name="google_storage_bucket" translatable="false">rentalapp-ce880.appspot.com</string>
     <string name="header_description" translatable="false">Heading</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
@@ -824,7 +823,7 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="progressbar_description" translatable="false">Progress Bar</string>
-    <string name="project_id" translatable="false">rentalapp-5571a</string>
+    <string name="project_id" translatable="false">rentalapp-ce880</string>
     <string name="radiogroup_description" translatable="false">Radio Group</string>
     <string name="rn_tab_description" translatable="false">Tab</string>
     <string name="scrollbar_description" translatable="false">Scroll Bar</string>

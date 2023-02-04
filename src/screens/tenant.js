@@ -37,7 +37,7 @@ const Tenant = () => {
    changeSpinnerFlag(true)
    const result = await getTenantList(1)
    changeSpinnerFlag(false)
-
+   console.log("======"+result.status)
    if (result.status) {
     setTenantList(result.data)
   } else {
@@ -60,7 +60,7 @@ const Tenant = () => {
         setHouseNoList(list)
 
 
-        // console.log(list)
+        console.log(list)
 
     }else{
         setHouseNoList([])

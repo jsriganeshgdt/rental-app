@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">846787229893-3671kgljapr46apcu2ll9ml5obfvbhjq.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://rentalapp-5571a-default-rtdb.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">846787229893</string>
-    <string name="google_api_key" translatable="false">AIzaSyBl5je3qmQ7C-8_Po4-JPexVmSKNHwdXz8</string>
-    <string name="google_app_id" translatable="false">1:846787229893:android:8b937c9ec86701e92c58ac</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBl5je3qmQ7C-8_Po4-JPexVmSKNHwdXz8</string>
-    <string name="google_storage_bucket" translatable="false">rentalapp-5571a.appspot.com</string>
-    <string name="project_id" translatable="false">rentalapp-5571a</string>
+    <string name="default_web_client_id" translatable="false">829337695328-ugm8eh29qbjcbfjnup9papkm0ppsutqa.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">829337695328</string>
+    <string name="google_api_key" translatable="false">AIzaSyB0V9GxD17OF3VAFXIE3N_wZXpqocSHzjs</string>
+    <string name="google_app_id" translatable="false">1:829337695328:android:e76b709f8144cb12c7bf05</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB0V9GxD17OF3VAFXIE3N_wZXpqocSHzjs</string>
+    <string name="google_storage_bucket" translatable="false">rentalapp-ce880.appspot.com</string>
+    <string name="project_id" translatable="false">rentalapp-ce880</string>
 </resources>
