@@ -12,8 +12,6 @@ import database from '@react-native-firebase/database';
 import { doLogin } from '../commonfunctions/firebaseMethods';
 import { changeSpinnerFlag, storeUserDetails } from '../commonfunctions/commonMethods';
 
-import SmsAndroid from 'react-native-get-sms-android';
-
 
 // create a component
 const Login = () => {
@@ -26,32 +24,32 @@ const Login = () => {
 
 
   const login = async () => {
-    // changeSpinnerFlag(true)
-    // const result = await doLogin(email, password)
-    // changeSpinnerFlag(false)
+    changeSpinnerFlag(true)
+    const result = await doLogin(email, password)
+    changeSpinnerFlag(false)
 
-    // if (result.status) {
-    //   storeUserDetails(result)
-    //   setErrorMessage('')
-    //   navigation.navigate(ScreenName.Home)
-    // } else {
-    //   setErrorMessage(result.message)
-    // }
+    if (result.status) {
+      storeUserDetails(result)
+      setErrorMessage('')
+      navigation.navigate(ScreenName.Home)
+    } else {
+      setErrorMessage(result.message)
+    }
 
 
-    SmsAndroid.autoSend(
-      "8344233713",
-      // "9688743938",
-      " ==== message ",
-      (fail) => {
-        console.log("message send error ---- "+JSON.stringify(fail));
+    // SmsAndroid.autoSend(
+    //   "8344233713",
+    //   // "9688743938",
+    //   " ==== message ",
+    //   (fail) => {
+    //     console.log("message send error ---- "+JSON.stringify(fail));
 
-      //   this.showLoader(false)
-      },
-      (success) => {
-          console.log("message send success ---- "+JSON.stringify(success));
-      },
-    );
+    //   //   this.showLoader(false)
+    //   },
+    //   (success) => {
+    //       console.log("message send success ---- "+JSON.stringify(success));
+    //   },
+    // );
 
 
   }
